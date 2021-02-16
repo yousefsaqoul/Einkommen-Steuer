@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einkommen Steuer</title>
+
+ 
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body id="myBody">
+
+	<div class="myForm">
+		  
+
+			<form action="" id="form1">
+				<p>zu versteuerndes Einkommen (zvE)</p>
+				<input type="number" id="userInput">
+				<label for=""> Euro</label>
+				<p>Persönliche Verhältnisse</p>
+				<input type="radio" id="verheiratet" name="famienZustand" checked>
+				<label for=""> verheiratet / verpartnert </label>
+				<input type="radio" id="alleinstehend" name="famienZustand" >
+				<label for=""> alleinstehend </label>
+				<div>
+					<select name="mylist" size="1"  id="mylist">
+						<option >2021</option>
+						<option >2020</option>
+						<option >2019</option>
+					</select>
+					<input type="button" value=" Berechnen" onclick="berechnen()">
+					<input type="button" value="Zurücksetzen" onclick="zuruckSetzen()">
+	
+					<h1 id="results"></h1>
+	
+				</div>
+				
+
+			</form>
+
+			
+		
+		  
+		 
+	</div>
+	
+	
+	
+
+	
+
+
+<script src="assets/js/main.js">
+
+</script>
+</body>
+
+</html>
+

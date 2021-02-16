@@ -1,0 +1,26 @@
+Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: tahoma;
+  color: rgb(242, 240, 248);
+  font-size: 20px;
+}
+.myForm {
+  background-color: rgb(10, 4, 92);
+  width: 40%;
+  height: 500px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+div {
+  padding-top: 30px;
+}
+p {
+  padding-bottom: 30px;
+  font-size: 32px;
+}
